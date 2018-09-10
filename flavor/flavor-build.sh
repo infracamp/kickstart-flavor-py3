@@ -10,6 +10,8 @@ set -e
 
 apt-get -y install python3 python3-pip
 
+pip3 install pandas azure slackclient python-dotenv
+
 
 echo 'export PATH="$PATH:/home/user/.local/bin"' >> /home/user/.bashrc
 

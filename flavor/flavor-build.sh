@@ -9,7 +9,7 @@ set -e
 
 
 apt-get -y install python3 python3-pip
-pip3 install pylint
+pip3 install pylint flask
 
 
 

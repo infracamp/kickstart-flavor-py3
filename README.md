@@ -25,7 +25,7 @@ We assume you created a virtual environment under `/opt/venv`.
 ```yaml
 env:
   VIRTUAL_ENV: /opt/venv
-  PATH: "$VIRTUAL_ENV/bin:$PATH"
+  PATH: "/opt/venv/bin:$PATH"
 
 command:
   build:

@@ -17,9 +17,33 @@ Document Index:
 |----------------|----------------|---------------------|
 |
 
+
+## Using virtual environments
+
+We assume you created a virtual environment under `/opt/venv`. 
+
+```yaml
+env:
+  VIRTUAL_ENV: /opt/venv
+  PATH: "$VIRTUAL_ENV/bin:$PATH"
+
+command:
+  build:
+    "python3 -m virtualenv /opt/venv"
+    "pip3 install -r /opt/requirements.txt"
+    
+    
+
+
+```
+
+
 ## Installed Software
 
 
 ## Runnin flask
+
+
+
 
 

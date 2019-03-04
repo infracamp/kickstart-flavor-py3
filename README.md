@@ -20,7 +20,7 @@ Document Index:
 
 ## Using virtual environments
 
-We assume you created a virtual environment under `/opt/venv`. 
+We assume you created a virtual environment under `/opt/venv`. (Using python3 default `venv` module).
 
 ```yaml
 env:
@@ -29,10 +29,9 @@ env:
 
 command:
   build:
-    "python3 -m virtualenv /opt/venv --always-copy"
-    "pip3 install -r /opt/requirements.txt"
+    "python3 -m venv /opt/venv --copies"
+    "pip install -r /opt/requirements.txt"
 ```
-
 
 
 

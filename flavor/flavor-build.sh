@@ -8,8 +8,8 @@
 set -e
 
 
-apt-get -y install python3 python3-pip
-pip3 install pylint flask virtualenv
+apt-get -y install python3 python3-pip python3-venv
+pip3 install pylint flask
 
 
 

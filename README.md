@@ -31,11 +31,10 @@ command:
   build:
     "python3 -m virtualenv /opt/venv"
     "pip3 install -r /opt/requirements.txt"
-    
-    
-
-
 ```
+
+
+
 
 
 ## Installed Software

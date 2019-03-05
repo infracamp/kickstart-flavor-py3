@@ -29,7 +29,7 @@ env:
 
 command:
   build:
-    "python3 -m venv /opt/venv --copies"
+    "python3 -m venv /opt/venv"
     "pip install -r /opt/requirements.txt"
 ```
 

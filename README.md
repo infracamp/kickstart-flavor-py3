@@ -11,14 +11,10 @@ Document Index:
     - [Build details](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/builds/)
 
 
-## Container specific `.kick.yml`-directives
-
-| Key | Default | Description |
-|----------------|----------------|---------------------|
-|
+## Using the container
 
 
-## Using virtual environments
+### Using virtual environments
 
 We assume you created a virtual environment under `/opt/venv`. (Using python3 default `venv` module).
 

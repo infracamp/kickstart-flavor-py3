@@ -25,17 +25,19 @@ env:
 
 command:
   build:
-    "python3 -m venv /opt/venv"
+    "/usr/bin/python3 -m venv /opt/venv"
     "pip install -r /opt/requirements.txt"
 ```
 
 
+## Setup PyCharm
 
+Let's assume we have a virtual-env in `venv`:
 
-## Installed Software
+![Project Setup](doc/pycharm-interpreter-settings.png)
 
+![Project Setup](doc/pycharm-interpreter-add-venv.png)
 
-## Runnin flask
 
 
 

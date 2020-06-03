@@ -13,12 +13,16 @@ Document Index:
 
 ## Using the container
 
+```
+from: infracamp/kickstart-flavor-py3
+```
 
 ### Using virtual environments
 
 We assume you created a virtual environment under `/opt/venv`. (Using python3 default `venv` module).
 
 ```yaml
+from: infracamp/kickstart-flavor-py3:testing
 env:
   VIRTUAL_ENV: /opt/venv
   PATH: "/opt/venv/bin:$PATH"
